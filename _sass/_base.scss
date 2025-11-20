@@ -700,7 +700,7 @@ footer.sticky-bottom {
 
 // Publications
 
-.publications {
+  .publications {
   margin-top: 2rem;
 
   h1 {
@@ -720,11 +720,12 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
+    font-size: 1.1rem;
   }
 
   ol.bibliography {
@@ -777,8 +778,9 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 600;
+          border-bottom: none;
         }
 
         > span.more-authors {

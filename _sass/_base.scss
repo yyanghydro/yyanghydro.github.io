@@ -995,6 +995,48 @@ progress::-moz-progress-bar {
   height: inherit;
 }
 
+// Contact section on about page
+.post .contact-info {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  align-items: flex-start;
+
+  p,
+  li {
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  .contact-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    margin-top: 0;
+  }
+
+  .contact-links li {
+    margin-bottom: 0.25rem;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.post .contact-heading {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+}
+
+@media (max-width: 575.98px) {
+  .post .contact-info .contact-block {
+    margin-bottom: 0.75rem;
+  }
+}
+
 /* Copy button */
 .code-display-wrapper {
   position: relative;

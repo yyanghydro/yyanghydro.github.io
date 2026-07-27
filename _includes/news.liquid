@@ -20,6 +20,11 @@
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% elsif include.expandable %}
+                <details class="news-expandable">
+                  <summary class="news-title">{{ item.title }}</summary>
+                  <div class="news-details">{{ item.content }}</div>
+                </details>
               {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}

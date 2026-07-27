@@ -661,6 +661,40 @@ footer.sticky-bottom {
 
 // Projects
 
+.news {
+  .news-expandable {
+    summary {
+      color: var(--global-theme-color);
+      cursor: pointer;
+      list-style: none;
+      padding-right: 1.5rem;
+      position: relative;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::after {
+        content: "+";
+        font-size: 1.25rem;
+        line-height: 1;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+
+    &[open] summary::after {
+      content: "-";
+    }
+
+    .news-details {
+      color: var(--global-text-color);
+      margin-top: 1rem;
+    }
+  }
+}
+
 .projects {
   a {
     text-decoration: none;

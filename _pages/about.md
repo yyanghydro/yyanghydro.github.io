@@ -23,11 +23,9 @@ I am an Assistant Professor in the School for the Environment at the University 
 
 ---
 
-**News**
+## News
 
-- *Oct 2025* – Open PhD position in hydrological modeling and urban hydrology  
-  - I am recruiting a PhD student with background in hydrology, hydrological modeling, urban hydrology, statistics, and data-driven modeling.  
-  - How to apply: Please email me your CV and a simple cover letter explaining your background and interests. Please see [here](https://www.umb.edu/academics/program-finder/environmental-sciences-phd/) for more details.
+{% include news.liquid limit=true expandable=true %}
 
 ---
 

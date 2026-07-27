@@ -13,4 +13,6 @@ ENVSTY 116L Quantitative Reasoning and the Environment
 
 ENVSCI 383 Water Resources Management: Principles, Practices, and Problems
 
+ENVSCI 697-02 Special Topics in Environmental Sciences: Urban Waters
+
 ---

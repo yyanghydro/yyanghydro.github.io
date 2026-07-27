@@ -11,3 +11,6 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Local source materials; publish required files from assets/ instead.
+/resources/

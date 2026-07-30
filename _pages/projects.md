@@ -2,7 +2,6 @@
 layout: page
 title: Research Projects
 permalink: /projects/
-description: Current research on urban hydrology, green infrastructure, and resilient water systems.
 nav: true
 nav_order: 3
 _styles: >

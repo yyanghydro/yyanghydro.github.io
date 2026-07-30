@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research-projects",
           title: "Research Projects",
-          description: "Current research on urban hydrology, green infrastructure, and resilient water systems.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -42,7 +42,7 @@ ninja.data = [{
               window.location.href = "/projects/1_smart_monitoring/";
             },},{id: "projects-understanding-variability-in-green-stormwater-infrastructure-performance-under-real-world-conditions-in-boston",
           title: 'Understanding Variability in Green Stormwater Infrastructure Performance Under Real-World Conditions in Boston',
-          description: "Examining why green stormwater systems perform differently across seasons, sites, and maintenance conditions.",
+          description: "Surveying green stormwater systems to understand patterns in performance across seasons, sites, and maintenance conditions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_real_world_performance/";
             },},{
